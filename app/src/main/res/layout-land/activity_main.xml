@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="222dp"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stalagmit_text_string"
+            android:id="@+id/button_stalagmit"
+            android:onClick="stalagmitButtonClicked" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stalaktyt_text_string"
+            android:id="@+id/button_stalaktyt"
+            android:onClick="stalaktytButtonClicked" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stalagnat_text_string"
+            android:id="@+id/button_stalagnat"
+            android:onClick="stalagnatButtonClicked" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView_pojecie"
+            android:src="@drawable/stalagmit"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/pojecie_image_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_detail_pojecie_opis"
+            android:layout_below="@+id/imageView_pojecie"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

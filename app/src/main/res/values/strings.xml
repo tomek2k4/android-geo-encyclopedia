@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Encyklopedia Geograficzna</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="stalagmit_text_string">Stalagmit</string>
+    <string name="stalaktyt_text_string">stalaktyt</string>
+    <string name="stalagnat_text_string">stalagnat</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="pojecie_image_text">pojecie_image</string>
+
+
+    <string name="stalagmit_opis">Z dolu do gory</string>
+    <string name="stalaktyt_opis">Z gory do dolu</string>
+    <string name="stalagnat_opis">Polaczenie stalagmitu i stalaktytu</string>
+
+
+</resources>
